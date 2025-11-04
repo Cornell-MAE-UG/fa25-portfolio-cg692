@@ -18,9 +18,15 @@ The workflow of editing and publishing your portfolio goes as follows:
 ## Creating a Local Copy
 There are three ways to set up a working copy of the portfolio code for you to edit. From easy to hard: you can either **create an online workspace** on called "Codespace", or clone the code directly **inside Visual Studio Code** for editing, committing, and pushing, or **use the git command line interface (CLI)** to maintain your local copy.
 
+### Using Codespaces
+
+You can use the online [Codespaces](https://github.com/features/codespaces) environments for development. Please read more about this feature through the following [link](https://github.com/features/codespaces). This option is available to you through the "Code" button as shown in the image below. This starts an online space for you to edit, test, and commit your work.
+
+<img src="assets/images/codespace-button.png" width="400" />
+
 ### Using Visual Studio Code
 
-You can use [VS Code](https://code.visualstudio.com/) to clone your code, edit, test, and publish it from your laptop. This means you can work offline and generally have full control of your code. 
+Alternatively, you can use [VS Code](https://code.visualstudio.com/) to clone your code, edit, test, and publish it from your laptop. This means you can work offline and generally have full control of your code. 
 
 Download and install VS Code. When you open it, choose "Clone Git Repository" to start a new project from your repository. Then enter the repo URL (also under the "Code" button in GitHub). 
 
@@ -28,12 +34,6 @@ Download and install VS Code. When you open it, choose "Clone Git Repository" to
 
 
 You can then use VS Code for editing and [Git actions](https://code.visualstudio.com/docs/sourcecontrol/overview). Please refer to the [VS Code documentation](https://code.visualstudio.com/docs/) for more information. 
-
-### Using Codespaces
-
-Alternatively, you can use the online [Codespaces](https://github.com/features/codespaces) environments for development. Please read more about this feature through the following [link](https://github.com/features/codespaces). This option is available to you through the "Code" button as shown in the image below. This starts an online space for you to edit, test, and commit your work.
-
-<img src="assets/images/codespace-button.png" width="400" />
 
 ### Using the Git CLI
 
@@ -116,13 +116,7 @@ and then Ruby:
 brew install ruby
 ```
 
-Make sure your system uses the `homebrew` version, add the following line to either `~/.bashrc` or `~/.zshrc`. Do determine what shell you are using, you can run `echo $SHELL`.
-
-```
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-```
-
-Close your terminal and reopen it to load your configuration. Now verify that you have the latest Ruby version: 
+Verify that you have the latest Ruby version: 
 ```
 ruby -v
 ```
@@ -170,7 +164,7 @@ In VS Code or Codespaces, you can use the Git interface inside the development e
 
 Follow these steps to publish your portfolio:
 
-1. In your `_config.yml` file, set the `baseurl` to your portfolio repo name (e.g., `"/spring-2025-portfolio-Hoffman/"`)
+1. In your `_config.yml` file, set the `base_url` to your portfolio repo name (e.g., `"/spring-2025-portfolio-Hoffman/"`)
 
 
 1. Go to your repository's Settings
