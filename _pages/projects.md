@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Portfolio
+title: Christine Guo - Portfolio
 permalink: /projects/
 ---
 
