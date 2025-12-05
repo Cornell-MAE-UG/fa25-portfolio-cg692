@@ -29,6 +29,8 @@ The dimensions I chose for the torque wrench to fulfill the design requirements 
 <p>Thickness = 0.55 in</p>
 <p>Distance from center of drive to strain gauge = 0.5 in</p>
 
+These dimensions, paired with the material properties, gave me a safety factor for yield of 6.62, for crack growth of 2.57, and for fatigue stress of 2.78.
+
 Using Fusion 360, I created the CAD model:
 
 
