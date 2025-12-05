@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench
 description: CAD, FEM Analysis, & Design Project
 technologies: [Autodesk Fusion, Ansys, MATLAB]
-image: /assets/images/torque-wrench/TW_Rendered.png
+image: /assets/images/torque-wrench/Max_Norm_Stress.png
 ---
 
 <p>As a final project for my junior year materials class, I was tasked to design a 3/8" drive torque wrench given the following constraints:</p>
@@ -18,16 +18,16 @@ Using MATLAB, I developed a quick script to assist in running the hand calculati
 
 <p>E (Young's Modulus) = 30.2 Mpsi</p>
 <p>v (Poissons Ratio) = 0.29</p>
-<p>Yield strength: 214 ksi</p>
+<p>Yield strength = 214 ksi</p>
 <p>K<sub>IC</sub> = 33 ksi-in<sup>1/2</sup></p>
-<p>Fatigue strength for 10<sup>6</sup> cycles: 90 ksi</p>
+<p>Fatigue strength for 10<sup>6</sup> cycles = 90 ksi</p>
 
 The dimensions I chose for the torque wrench to fulfill the design requirements were:
 
-<p>Length from drive center to end of handle: 18 in</p>
+<p>Length from drive center to end of handle = 18 in</p>
 <p>Width = 0.45 in</p>
 <p>Thickness = 0.55 in</p>
-<p>Distance from center of drive to strain gauge: 0.5 in</p>
+<p>Distance from center of drive to strain gauge = 0.5 in</p>
 
 Using Fusion 360, I created the CAD model:
 
@@ -40,7 +40,7 @@ Using Fusion 360, I created the CAD model:
 
 ![Photo of rendered torque wrench CAD]({{ "/assets/images/torque-wrench/TW_Rendered.png" | relative_url }})
 
-And using Ansys, I loaded the the wrench with a force of 33.33 lbf at the end of the handle to simulate the 600 in-lbf torque and constrained the drive to not deform.
+And using Ansys, I loaded the the wrench with a force of 33.33 lbf at the end of the handle to simulate the 600 in-lbf torque and constrained the drive to not displace.
 
 ![Photo of boundary conditions and load applied to FEM model]({{ "/assets/images/torque-wrench/Loads_BC.png" | relative_url }})
 
