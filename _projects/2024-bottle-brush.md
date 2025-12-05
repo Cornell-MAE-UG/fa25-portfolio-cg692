@@ -8,7 +8,7 @@ image: /assets/images/bottle-brush/bottle-brush-rendered.png
 
 During my sophomore semester, my design class had us come up with a solution to a problem, or improve on an already existing solution. My group decided to improve upon the process of water bottle cleaning, particulary in the aspect of the water bottle brush.
 
-Looking at typical existing water bottle brushes on the market, the majority looked something like this:
+Looking at typical existing water bottle brushes on the market, the majority looked something like this: </p>
 
 ![Photo of typical water bottle brush]({{ "/assets/images/bottle-brush/water-bottle-brush-typical.jpg" | relative_url }})
 
