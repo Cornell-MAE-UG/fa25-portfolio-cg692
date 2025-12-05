@@ -17,12 +17,18 @@ Now the brush works as intended, since why else would there be some many of this
 After some initial design drafting, followed by a scrappy prototype, we finally ended up with our first completed working design.
 
 Here are the rendered images created through Fusion 360:
+
 ![Photo of rendered mechanical brush gear system]({{ "/assets/images/bottle-brush/bottle-brush-gears.png" | relative_url }})
 ![Photo of completed rendered brush]({{ "/assets/images/bottle-brush/bottle-brush-rendered.png" | relative_url }}){: .inline-image-l}
+
 ![Photo of rendered mechanical casing]({{ "/assets/images/bottle-brush/bottle-brush-inside.png" | relative_url }})
 
 Here are the physical parts 3D printed and assembled, with the internal gears purchased from McMaster:
+
 ![Photo of brush casing]({{ "/assets/images/bottle-brush/built-brush-casing.png" | relative_url }})
+
 ![Photo of brush attachments]({{ "/assets/images/bottle-brush/brush-attachments.png" | relative_url }})
+
 ![Photo of brush with large attachment]({{ "/assets/images/bottle-brush/brush-big-attachment.png" | relative_url }})
+
 ![Photo of brush with small attachment]({{ "/assets/images/bottle-brush/brush-small-attachment.png" | relative_url }})

@@ -30,22 +30,36 @@ The dimensions I chose for the torque wrench to fulfill the design requirements 
 <p>Distance from center of drive to strain gauge: 0.5 in</p>
 
 Using Fusion 360, I created the CAD model:
+
+
 ![Photo of CAD dimensions]({{ "/assets/images/torque-wrench/CAD_Dimensions1.png" | relative_url }})
+
 ![Photo of CAD dimensions]({{ "/assets/images/torque-wrench/CAD_Dimensions2.png" | relative_url }})
+
 ![Photo of torque wrench CAD]({{ "/assets/images/torque-wrench/OverallCAD.png" | relative_url }})
 
+![Photo of rendered torque wrench CAD]({{ "/assets/images/torque-wrench/TW_Rendered.png" | relative_url }})
+
 And using Ansys, I loaded the the wrench with a force of 33.33 lbf at the end of the handle to simulate the 600 in-lbf torque and constrained the drive to not deform.
+
 ![Photo of boundary conditions and load applied to FEM model]({{ "/assets/images/torque-wrench/Loads_BC.png" | relative_url }})
 
 Running the analysis at element size of 0.06 inch gave the following results:
 
 Normal strain contours:
+
 ![Photo of normal strain contours on wrench]({{ "/assets/images/torque-wrench/Normal_Elastic_Strain.png" | relative_url }})
+
 Max principle stress contours:
+
 ![Photo of principle stress contours on wrench]({{ "/assets/images/torque-wrench/Max_Principle_Stress.png" | relative_url }})
+
 And max normal stress, load point deflection, and strain at the strain gauge location:
+
 ![Photo of normal stress on wrench]({{ "/assets/images/torque-wrench/Max_Norm_Stress.png" | relative_url }})
+
 ![Photo of load point deflection of wrench]({{ "/assets/images/torque-wrench/Total_Deformation.png" | relative_url }})
+
 ![Photo of strain gauge probe]({{ "/assets/images/torque-wrench/Strain_Probe_Location.png" | relative_url }})
 
 At the location of the strain gauge probe, the strain gauge read ~1035 microstrain, which matched quite well with my hand calculation of 1041 microstrain. The maximum stress of 75 ksi was experienced by the wrench at the point of contact where the drive meets the handle itself. This was contradictory to my hand calculations of a max stress of about 32 ksi, but not unsurprising. Given the my hand calculations did not take into account the drive itself, and instead analyzed only the stress on the handle, we can see that if you shifted to the location on the handle, the stress was indeed 32 ksi. As for the deflection of the load point, FEM analysis gave 0.566 inch in the x direction, while my hand calculations gave 0.514 inch in the x. Overall, the results where quite close!
