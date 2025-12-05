@@ -22,6 +22,35 @@ main {
 }
 
 img {
-  max-width: 1200px;   /* set your desired size */
+  max-width: 100%;   /* set your desired size */
   height: auto;       /* keeps correct proportions */
 }
+
+.scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 10px 0;
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-gallery img {
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  scroll-snap-align: start;
+}
+
+.scroll-gallery::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-gallery::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+.scroll-gallery::-webkit-scrollbar-track {
+  background: #eee;
+}
+

@@ -33,14 +33,13 @@ These dimensions, paired with the material properties, gave me a safety factor f
 
 Using Fusion 360, I created the CAD model:
 
+<div class="scroll-gallery">
+  <img src="{{ '/assets/images/torque-wrench/CAD_Dimensions1.png' | relative_url }}" alt="CAD Dimensions 1">
+  <img src="{{ '/assets/images/torque-wrench/CAD_Dimensions2.png' | relative_url }}" alt="CAD Dimensions 2">
+  <img src="{{ '/assets/images/torque-wrench/OverallCAD.png' | relative_url }}" alt="CAD 3">
+  <img src="{{ '/assets/images/torque-wrench/TW_Rendered.png' | relative_url }}" alt="Rendered CAD">
+</div>
 
-![Photo of CAD dimensions]({{ "/assets/images/torque-wrench/CAD_Dimensions1.png" | relative_url }})
-
-![Photo of CAD dimensions]({{ "/assets/images/torque-wrench/CAD_Dimensions2.png" | relative_url }})
-
-![Photo of torque wrench CAD]({{ "/assets/images/torque-wrench/OverallCAD.png" | relative_url }})
-
-![Photo of rendered torque wrench CAD]({{ "/assets/images/torque-wrench/TW_Rendered.png" | relative_url }})
 
 And using Ansys, I loaded the the wrench with a force of 33.33 lbf at the end of the handle to simulate the 600 in-lbf torque and constrained the drive to not displace.
 

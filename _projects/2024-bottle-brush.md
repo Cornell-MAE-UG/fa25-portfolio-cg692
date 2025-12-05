@@ -18,15 +18,18 @@ After some initial design drafting, followed by a scrappy prototype, we finally 
 
 Here are the rendered images created through Fusion 360:
 
-![Photo of rendered mechanical brush gear system]({{ "/assets/images/bottle-brush/bottle-brush-gears.png" | relative_url }})
-![Photo of completed rendered brush]({{ "/assets/images/bottle-brush/bottle-brush-rendered.png" | relative_url }}){: .inline-image-l}
+<div class="scroll-gallery">
+  <img src="{{ '/assets/images/bottle-brush/bottle-brush-gears.png' | relative_url }}" alt="rendered gears">
+  <img src="{{ '/assets/images/bottle-brush/bottle-brush-rendered.png' | relative_url }}" alt="rendered brush">
+  <img src="{{ '/assets/images/bottle-brush/bottle-brush-inside.png' | relative_url }}" alt="rendered casing">
+</div>
 
-![Photo of rendered mechanical casing]({{ "/assets/images/bottle-brush/bottle-brush-inside.png" | relative_url }})
 
 Here are the physical parts 3D printed and assembled, with the internal gears purchased from McMaster:
 
-![Photo of brush casing]({{ "/assets/images/bottle-brush/built-brush-casing.png" | relative_url }})
-![Photo of brush attachments]({{ "/assets/images/bottle-brush/brush-attachments.png" | relative_url }})
-
-![Photo of brush with large attachment]({{ "/assets/images/bottle-brush/brush-big-attachment.png" | relative_url }})
-![Photo of brush with small attachment]({{ "/assets/images/bottle-brush/brush-small-attachment.png" | relative_url }})
+<div class="scroll-gallery">
+  <img src="{{ '/assets/images/bottle-brush/built-brush-casing.png' | relative_url }}" alt="built casing">
+  <img src="{{ '/assets/images/bottle-brush/brush-attachments.png' | relative_url }}" alt="brush attachments">
+  <img src="{{ '/assets/images/bottle-brush/brush-big-attachment.png' | relative_url }}" alt="brush with big attachment">
+  <img src="{{ '/assets/images/bottle-brush/brush-small-attachment.png' | relative_url }}" alt="brush with small attachment">
+</div>
