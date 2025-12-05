@@ -19,7 +19,7 @@ Aspiring mechanical engineering student interested in industry and eager to appl
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
+  *Bachelor of Science in Mechanical Engineering*  
   GPA: 3.85/4.0 | Graduation: May, 2027
 
 - **Leechburg Area High School**  
@@ -31,7 +31,7 @@ Aspiring mechanical engineering student interested in industry and eager to appl
 #### Skills
 - **Software:** Autodesk Fusion 360, Microsoft Office Suite, JupyterLab  
 - **Programming:** Python, MATLAB
-- **Languages:** Chinese (Converstational), English (Fluent) 
+- **Languages:** Chinese (Conversational), English (Fluent) 
 - **Tools:** 3D Printing, Laser Cutting  
 
 ---
@@ -41,6 +41,10 @@ Aspiring mechanical engineering student interested in industry and eager to appl
   *A water bottle brush operated through the use of a spinning handle on the top to more efficently clean the inside of a water bottle.*  
   - Modeled and designed a gear train assembly in Fusion 360 to translate rotation from a top handle into high-speed rotation of an internal brush, optimizing a 1:5 gear ratio for effective cleaning speed  
   - Prototyped and validated the design by fabricating components via 3D printing and machining, assembled and tested the system, and confirmed successful cleaning of the interior of standard water bottles
+- **Torque Wrench Design & Analysis**:  
+  *Creating a torque wrench given constraints and analyzing using FEM analysis.*  
+  - Wrote MATLAB script to iterate process of finding dimensions and material properties that best fit the given constraints
+  - Modeled torque wrench in Fusion & analyzed its resulting deformations, stresses, and strains using FEM analysis with Ansys
 
 ---
 
