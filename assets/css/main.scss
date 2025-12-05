@@ -25,19 +25,3 @@ img {
   max-width: 1400px;   /* set your desired size */
   height: auto;       /* keeps correct proportions */
 }
-
-/* Thumbnail styling for project grid */
-.project-thumb {
-  display: block;      /* ensures image is on its own line */
-  width: 250px;        /* desired fixed width for consistency */
-  height: auto;        /* preserves original aspect ratio */
-  object-fit: contain; /* ensures full image fits inside the box */
-  margin-bottom: 1rem; /* spacing below the image */
-}
-
-/* Optional: make it responsive */
-.project-thumb-responsive {
-  display: block;
-  max-width: 100%;  /* scales down on smaller screens */
-  height: auto;     /* preserves aspect ratio */
-}
