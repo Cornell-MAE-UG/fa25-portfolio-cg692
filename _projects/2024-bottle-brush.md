@@ -26,9 +26,7 @@ Here are the rendered images created through Fusion 360:
 Here are the physical parts 3D printed and assembled, with the internal gears purchased from McMaster:
 
 ![Photo of brush casing]({{ "/assets/images/bottle-brush/built-brush-casing.png" | relative_url }})
-
 ![Photo of brush attachments]({{ "/assets/images/bottle-brush/brush-attachments.png" | relative_url }})
 
 ![Photo of brush with large attachment]({{ "/assets/images/bottle-brush/brush-big-attachment.png" | relative_url }})
-
 ![Photo of brush with small attachment]({{ "/assets/images/bottle-brush/brush-small-attachment.png" | relative_url }})
