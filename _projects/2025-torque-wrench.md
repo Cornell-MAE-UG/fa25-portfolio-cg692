@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench
 description: CAD, FEM Analysis, & Design Project
 technologies: [Autodesk Fusion, Ansys, MATLAB]
-image: /assets/images/torque-wrench/Max_Norm_Stress.png
+image: /assets/images/torque-wrench/TW_Icon.png
 ---
 
 <p>As a final project for my junior year materials class, I was tasked to design a 3/8" drive torque wrench given the following constraints:</p>
