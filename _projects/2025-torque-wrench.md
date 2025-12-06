@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Torque Wrench
+title: Torque Wrench Design & Analysis
 description: CAD, FEM Analysis, & Design Project
 technologies: [Autodesk Fusion, Ansys, MATLAB]
 image: /assets/images/torque-wrench/TW_Icon.png
